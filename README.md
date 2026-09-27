@@ -12,13 +12,23 @@
 
 ![FINGR](assets/teaser.png)
 
-Install [uv](https://docs.astral.sh/uv/). Training requires Linux and an NVIDIA CUDA GPU.
+Tested on Ubuntu 22.04 with Python 3.12, PyTorch 2.7.1 (CUDA 11.8), an Intel i9-13900K, 32 GB RAM, and one NVIDIA RTX 4090 (24 GB). Training for 1,000 epochs takes about 1 hour.
+
+Clone the repository and enter its directory.
 
 ```bash
 git clone https://github.com/EmptyBlueBox/FINGR.git
 cd FINGR
-uv run -m fingr.visualize_training_traj
-uv run -m fingr.train_policy
 ```
 
-Training data downloads automatically. Training uses the paper settings and saves metrics and checkpoints under `checkpoint/`.
+Visualize a training trajectory, downloading the dataset automatically on first use.
+
+```bash
+uv run -m fingr.visualize_training_traj
+```
+
+Train the FINGR policy on the demonstration dataset.
+
+```bash
+uv run -m fingr.train_policy
+```
