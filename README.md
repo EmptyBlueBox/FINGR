@@ -12,7 +12,7 @@
 
 ![FINGR](assets/teaser.png)
 
-Tested on Ubuntu 22.04 with Python 3.12, PyTorch 2.7.1 (CUDA 11.8), an Intel i9-13900K, 32 GB RAM, and one NVIDIA RTX 4090 (24 GB). Training for 1,000 epochs takes about 1 hour.
+Tested on Ubuntu 22.04 with Python 3.12, PyTorch 2.7.1 (CUDA 11.8), an Intel i9-13900K, 32 GB RAM, and one NVIDIA RTX 4090 (24 GB). Estimated training time is 45-50 minutes for 1,000 epochs on the full dataset.
 
 Clone the repository and enter its directory.
 
