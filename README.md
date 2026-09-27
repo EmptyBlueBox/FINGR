@@ -17,7 +17,6 @@ Install [uv](https://docs.astral.sh/uv/). Training requires Linux and an NVIDIA 
 ```bash
 git clone https://github.com/EmptyBlueBox/FINGR.git
 cd FINGR
-uv sync
 uv run -m fingr.visualize_training_traj
 uv run -m fingr.train_policy
 ```
