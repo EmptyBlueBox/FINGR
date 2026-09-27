@@ -1,0 +1,29 @@
+[project]
+name = "fingr"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "av==15.1.0",
+    "huggingface-hub==1.28.0",
+    "lerobot[dataset]==0.6.1",
+    "numpy==2.2.6",
+    "opencv-python-headless==4.13.0.92",
+    "pyarrow==24.0.0",
+    "rerun-sdk==0.33.1",
+    "scipy==1.15.3",
+    "torch==2.7.1",
+    "torchvision==0.22.1",
+    "tqdm>=4.67",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+torch = { index = "pytorch", marker = "sys_platform == 'linux' and platform_machine == 'x86_64'" }
+torchvision = { index = "pytorch", marker = "sys_platform == 'linux' and platform_machine == 'x86_64'" }
+
+[[tool.uv.index]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu118"
+explicit = true
