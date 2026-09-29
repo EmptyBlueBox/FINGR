@@ -6,7 +6,7 @@
 
 <sup>1</sup>UC San Diego · <sup>\*</sup>Equal contribution
 
-[![Project Page](https://img.shields.io/badge/Project%20Page-FINGR-4b8bbe)](https://www.lyt0112.com/projects/FINGR) [![Video](https://img.shields.io/badge/Video-YouTube-ff0000)](https://youtu.be/0rlplkw3sxQ) [![Dataset](https://img.shields.io/badge/Dataset-Hugging%20Face-ffd21e)](https://huggingface.co/datasets/EmptyBlue/FINGR) [![Visualization](https://img.shields.io/badge/Visualization-Interactive-00a8a8)](https://www.lyt0112.com/projects/FINGR#visualization)
+[![Project Page](https://img.shields.io/badge/Project%20Page-FINGR-4b8bbe)](https://www.lyt0112.com/projects/FINGR) [![Paper](https://img.shields.io/badge/arXiv-2609.33973-b31b1b)](https://arxiv.org/abs/2609.33973) [![Video](https://img.shields.io/badge/Video-YouTube-ff0000)](https://youtu.be/0rlplkw3sxQ) [![Dataset](https://img.shields.io/badge/Dataset-Hugging%20Face-ffd21e)](https://huggingface.co/datasets/EmptyBlue/FINGR) [![Visualization](https://img.shields.io/badge/Visualization-Interactive-00a8a8)](https://www.lyt0112.com/projects/FINGR#visualization)
 
 </div>
 
